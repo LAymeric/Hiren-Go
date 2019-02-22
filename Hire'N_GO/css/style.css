@@ -1,0 +1,132 @@
+/* NAVBAR */
+
+nav {
+  background-color: white ;
+}
+
+nav a {
+  color: rgba(0, 0, 0, .4);;
+}
+
+nav a:hover {
+  color:  rgb(91,192,222);
+}
+
+.test{
+  background-color: rgb(91,192,222);
+}
+
+/*SEARCH BAR*/
+
+.searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+  .search_input{
+  color:  rgb(91,192,222);
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 450px;
+  caret-color: rgb(91,192,222);
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_icon{
+  background: white;
+  color:  rgb(91,192,222);
+  }
+
+  .search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:rgba(0, 0, 0, .4)e;
+  }
+
+
+
+/* WRAPPER */
+
+.wrapper {
+  background-size: cover;
+  color: white;
+  padding-top: 150px;
+  text-align: center;
+}
+.icon-medium{
+  font-size: 4em;
+}
+#wrapper-index {
+  background-image: url("../vendor/images/welcomepage/background/background.png");
+  height: 650px;
+}
+
+#wrapper-login {
+  background-image: url("../vendor/images/welcomepage/background/login_background2.jpg");
+  height: 450px;
+}
+
+.wrapper h1 {
+  font-size: 72px;
+  font-weight: normal;
+  text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+}
+
+.wrapper h2 {
+  background: rgba(0, 0, 0, .4);
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 2em;
+  padding: 0.2em;
+  padding-right: 40px;
+    padding-left: 40px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: white ;
+  color: #aaa;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+footer a {
+  color: rgb(91,192,222);;
+}
+
+footer a:hover {
+  color: #ddd;
+}
+
+.push {
+  height: 37px;
+}
+
+.modal-body{
+  color: #000;
+}
+
+h4{
+  margin:0 auto;
+}
